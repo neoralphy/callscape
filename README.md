@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Callscape" width="820">
+</p>
+
 # Callscape
 
 A horizontal call-flow view for JetBrains IDEs: put the caret on a method and see where it is called from. Free, PHP-first.

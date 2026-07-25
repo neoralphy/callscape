@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 180" role="img" aria-label="Callscape - see where a method is called from">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5FD6BF"/>
+      <stop offset="1" stop-color="#2E8F81"/>
+    </linearGradient>
+    <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3E9E90"/>
+      <stop offset="0.28" stop-color="#2C86B8"/>
+      <stop offset="0.5" stop-color="#3B82F6"/>
+      <stop offset="0.72" stop-color="#7C5CEC"/>
+      <stop offset="1" stop-color="#C24DD6"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="878" height="178" rx="20" fill="#1B2028" stroke="#2A313B" stroke-width="1.5"/>
+  <rect x="28" y="34" width="112" height="112" rx="24" fill="url(#tile)"/>
+  <!-- mark: two callers flowing into one method node -->
+  <path d="M52 68 H92 M52 112 H92 M92 68 Q108 90 92 112" fill="none" stroke="#EAFBF6" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="52" cy="68" r="8.5" fill="#EAFBF6"/>
+  <circle cx="52" cy="112" r="8.5" fill="#EAFBF6"/>
+  <circle cx="112" cy="90" r="11" fill="#EAFBF6"/>
+  <text x="176" y="82" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="41" font-weight="700" fill="#4EC6AE">Callscape</text>
+  <text x="178" y="118" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="21" fill="#98A0AD">See where a method is called from, at a glance.</text>
+  <rect x="178" y="138" width="300" height="6" rx="3" fill="url(#ramp)"/>
+</svg>
